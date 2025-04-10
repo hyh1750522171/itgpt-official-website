@@ -6,8 +6,8 @@ on:
     branches:
       - master
       - v*
-    # paths:
-    #   - 'Dockerfile'
+    paths:
+      - 'Dockerfile'
 
   
 jobs:
@@ -34,7 +34,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
             context: .
-            file: ./docker/Dockerfile
+            file: ./Dockerfile
             platforms: linux/amd64,linux/arm64,linux/arm/v7
             push: true
                 ${{ secrets.DOCKERHUB_USERNAME }}/itgpt-web:latest
