@@ -6,6 +6,7 @@ COPY . .
 RUN pnpm install
 RUN pnpm run build
 
+
 # 生产阶段
 FROM nginx:stable-alpine AS production-stage
 COPY --from=build-stage /app/dist /usr/share/nginx/html
