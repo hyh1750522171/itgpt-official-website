@@ -71,110 +71,114 @@ export default {
 
 <style scoped>
 .home {
-  padding-top: 2rem;
+  padding-top: 0;
 }
 
 .hero {
   text-align: center;
-  padding: 5rem 0;
-  background: linear-gradient(135deg, #f9fafb 0%, #e5e7eb 100%);
+  padding: 8rem 0;
+  background: linear-gradient(135deg, #0a2540 0%, #0657a3 100%);
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  color: #111827;
+  color: white;
 }
 
 .hero h1 span {
-  color: #4f46e5;
+  color: #00d4ff;
 }
 
 .subtitle {
-  font-size: 1.2rem;
-  color: #6b7280;
-  max-width: 600px;
-  margin: 0 auto 2rem;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 700px;
+  margin: 0 auto 3rem;
 }
 
 .cta {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .btn {
-  padding: 0.8rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 0.5rem;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
+  font-size: 1.1rem;
 }
 
 .primary {
-  background: #4f46e5;
-  color: white;
+  background: #00d4ff;
+  color: #0a2540;
 }
 
 .primary:hover {
-  background: #4338ca;
+  background: #00b8e6;
 }
 
 .outline {
-  border: 1px solid #4f46e5;
-  color: #4f46e5;
-}
-
-.outline:hover {
-  background: #4f46e5;
+  border: 2px solid white;
   color: white;
 }
 
+.outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .features {
-  padding: 5rem 0;
+  padding: 6rem 0;
+  background: #f8fafc;
 }
 
 .section-title {
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 3rem;
-  color: #111827;
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+  color: #0a2540;
 }
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
 }
 
 .feature-card {
   background: white;
-  border-radius: 0.5rem;
-  padding: 2rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  border-radius: 0.75rem;
+  padding: 2.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
 }
 
 .feature-card .icon {
-  font-size: 2rem;
-  color: #4f46e5;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #00d4ff;
+  margin-bottom: 1.5rem;
 }
 
 .feature-card h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-  color: #111827;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #0a2540;
 }
 
 .feature-card p {
-  color: #6b7280;
-  line-height: 1.6;
+  color: #64748b;
+  line-height: 1.7;
+  font-size: 1.1rem;
 }
 
 @media (max-width: 768px) {

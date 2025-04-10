@@ -38,63 +38,47 @@ export default {
 
 <style scoped>
 .navbar {
-  background: white;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 1rem 0;
+  background: #0a2540;
+  padding: 1.5rem 0;
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
-  color: #333;
+  color: white;
   text-decoration: none;
 }
 
 .logo span {
-  color: #4f46e5;
+  color: #00d4ff;
 }
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .nav-link {
-  color: #4b5563;
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
   font-weight: 500;
-  transition: all 0.3s ease;
-  position: relative;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
 }
 
 .nav-link:hover {
-  color: #4f46e5;
-}
-
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: #4f46e5;
-  transition: width 0.3s ease;
-}
-
-.nav-link:hover::after {
-  width: 100%;
+  color: white;
 }
 </style>

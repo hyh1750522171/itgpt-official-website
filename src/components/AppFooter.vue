@@ -75,106 +75,107 @@ export default {
 
 <style scoped>
 .footer {
-  background: #f9fafb;
-  padding: 3rem 0 1rem;
+  background: #0a2540;
+  padding: 4rem 0 2rem;
   margin-top: auto;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 3rem;
 }
 
 .footer-content {
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
-  margin-bottom: 2rem;
+  gap: 4rem;
+  margin-bottom: 3rem;
 }
 
 .brand-info {
   flex: 1;
-  min-width: 200px;
+  min-width: 250px;
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
-  color: #333;
-  margin-bottom: 1rem;
+  color: white;
+  margin-bottom: 1.5rem;
 }
 
 .logo span {
-  color: #4f46e5;
+  color: #00d4ff;
 }
 
 .slogan {
-  color: #6b7280;
-  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
 }
 
 .footer-links {
   flex: 2;
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
   flex-wrap: wrap;
 }
 
 .link-group {
-  min-width: 120px;
+  min-width: 150px;
 }
 
 .link-group h4 {
-  font-size: 1rem;
-  color: #111827;
-  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 1.5rem;
 }
 
 .footer-link {
   display: block;
-  color: #6b7280;
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
   transition: color 0.3s ease;
+  font-size: 1rem;
 }
 
 .footer-link:hover {
-  color: #4f46e5;
+  color: #00d4ff;
 }
 
 .social-links {
   flex: 1;
-  min-width: 200px;
+  min-width: 250px;
 }
 
 .social-links h4 {
-  font-size: 1rem;
-  color: #111827;
-  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 1.5rem;
 }
 
 .social-icons {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .social-icons a {
-  color: #6b7280;
-  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.5rem;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #4f46e5;
+  color: #00d4ff;
 }
 
 .copyright {
-  border-top: 1px solid #e5e7eb;
-  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem;
   text-align: center;
-  color: #6b7280;
-  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {
